@@ -1,0 +1,29 @@
+{
+    "name": "everth/userstamps",
+    "description": "Laravel package to automatically manage created_by and updated_by columns on Eloquent models.",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Everth\\UserStamps\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Everth",
+            "email": "everthleonardosaran@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Everth\\UserStamps\\Providers\\UserStampsProvider"
+            ]
+        }
+    }
+}
+
+
