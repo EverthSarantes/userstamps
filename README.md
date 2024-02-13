@@ -7,7 +7,7 @@ Userstamps es un paquete de Laravel diseñado para facilitar la gestión automá
 Puedes instalar el paquete a través de Composer utilizando el siguiente comando:
 
 ```bash
-composer require everth/userstamps
+composer require everth/userstamps dev-main
 ```
 Para activar el proveedor de servicios hay que añadir la siguiente linea en config/app.php en el array providers:
 ```php
